@@ -22,18 +22,19 @@ class DataIngestion:
         
     
     def initiate_data_ingestion(self):
+        
         logging.info("data ingestion started")
         
         try:
-            data=pd.read_csv(Path(os.path.join("notebooks/data","gemstone.csv")))
+            #data=pd.read_csv(Path(os.path.join("notebooks/data","gemstone.csv")))
+            data=pd.read_csv(r'D:\Siva\Full_Stack_Data_Science_Masters\fsdsmendtoend\notebooks\data\gemstone.csv')
             logging.info(" i have read dataset as a df")
-            
             
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
             data.to_csv(self.ingestion_config.raw_data_path,index=False)
             logging.info(" i have saved the raw dataset in artifact folder")
             
-            logging.info("here i have performed train test split")
+            logging.info("here i am performing train test split")
             
             train_data,test_data=train_test_split(data,test_size=0.25)
             logging.info("train test split completed")
@@ -54,4 +55,5 @@ class DataIngestion:
         except Exception as e:
            logging.info("exception during occured at data ingestion stage")
            raise customexception(e,sys)
+    
     

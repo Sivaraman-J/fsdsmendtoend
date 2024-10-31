@@ -12,7 +12,12 @@ import sys
 from src.DimondPricePrediction.logger import logging
 from src.DimondPricePrediction.exception import customexception
 import pandas as pd
-class TrainingPipeline:
+
+obj = DataIngestion()
+
+obj.initiate_data_ingestion()
+
+'''class TrainingPipeline:
     def start_data_ingestion(self):
         try:
             data_ingestion=DataIngestion()
@@ -21,7 +26,7 @@ class TrainingPipeline:
         except Exception as e:
             raise customexception(e,sys)
         
-    '''def start_data_transformation(self,train_data_path,test_data_path):
+    def start_data_transformation(self,train_data_path,test_data_path):
         
         try:
             data_transformation = DataTransformation()

@@ -35,3 +35,22 @@ python setup.py install
 ```
 pip install -r requirements.txt
 ```
+
+
+```
+#MLflow Tracking remote:
+
+https://dagshub.com/sivaramanperumal/fsdsmendtoend.mlflow
+
+
+
+#Using Mlflow tracking
+
+import dagshub
+dagshub.init(repo_owner='sivaramanperumal', repo_name='fsdsmendtoend', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
+```

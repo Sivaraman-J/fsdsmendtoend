@@ -31,7 +31,7 @@ class ModelEvaluation:
             model=load_object(model_path)
 
         
-
+            mlflow.set_tracking_uri("https://dagshub.com/sivaramanperumal/fsdsmendtoend.mlflow")
             mlflow.set_registry_uri("https://dagshub.com/sivaramanperumal/fsdsmendtoend.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme

@@ -8,8 +8,7 @@ import numpy as np
 import pickle
 from src.DimondPricePrediction.utils.utils import load_object
 
-import dagshub
-dagshub.init(repo_owner='sivaramanperumal', repo_name='fsdsmendtoend', mlflow=True)
+
 
 class ModelEvaluation:
     def __init__(self):
@@ -31,8 +30,8 @@ class ModelEvaluation:
             model=load_object(model_path)
 
         
-            mlflow.set_tracking_uri("https://dagshub.com/sivaramanperumal/fsdsmendtoend.mlflow")
-            mlflow.set_registry_uri("https://dagshub.com/sivaramanperumal/fsdsmendtoend.mlflow")
+            
+            #mlflow.set_registry_uri("https://dagshub.com/sivaramanperumal/fsdsmendtoend.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             

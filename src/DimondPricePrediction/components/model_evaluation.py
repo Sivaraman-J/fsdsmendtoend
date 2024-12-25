@@ -8,7 +8,8 @@ import numpy as np
 import pickle
 from src.DimondPricePrediction.utils.utils import load_object
 
-
+import dagshub
+dagshub.init(repo_owner='sivaramanperumal', repo_name='fsdsmendtoend', mlflow=True)
 
 class ModelEvaluation:
     def __init__(self):
@@ -68,5 +69,4 @@ class ModelEvaluation:
 
             
         except Exception as e:
-            raise e
-        
+            raise e  

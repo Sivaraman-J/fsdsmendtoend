@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Siva/Full_Stack_Data_Science_Masters/fsdsmendtoend/mlruns/0/92b93415bbf1425fae120c82349a29e0/artifacts
+end_time: 1735235207213
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92b93415bbf1425fae120c82349a29e0
+run_name: fortunate-finch-446
+run_uuid: 92b93415bbf1425fae120c82349a29e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735235202271
+status: 4
+tags: []
+user_id: anith

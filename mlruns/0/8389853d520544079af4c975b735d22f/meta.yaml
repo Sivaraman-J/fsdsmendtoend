@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Siva/Full_Stack_Data_Science_Masters/fsdsmendtoend/mlruns/0/8389853d520544079af4c975b735d22f/artifacts
+end_time: 1735235441965
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8389853d520544079af4c975b735d22f
+run_name: grandiose-stag-316
+run_uuid: 8389853d520544079af4c975b735d22f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735235437421
+status: 4
+tags: []
+user_id: anith

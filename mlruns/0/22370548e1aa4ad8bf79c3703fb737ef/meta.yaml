@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Siva/Full_Stack_Data_Science_Masters/fsdsmendtoend/mlruns/0/22370548e1aa4ad8bf79c3703fb737ef/artifacts
+end_time: 1735234528562
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22370548e1aa4ad8bf79c3703fb737ef
+run_name: agreeable-frog-90
+run_uuid: 22370548e1aa4ad8bf79c3703fb737ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735234517339
+status: 4
+tags: []
+user_id: anith

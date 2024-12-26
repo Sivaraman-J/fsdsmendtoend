@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Siva/Full_Stack_Data_Science_Masters/fsdsmendtoend/mlruns/0/25c4704146c54926aba3594821ed5965/artifacts
+end_time: 1735234984683
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25c4704146c54926aba3594821ed5965
+run_name: resilient-vole-469
+run_uuid: 25c4704146c54926aba3594821ed5965
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735234980194
+status: 4
+tags: []
+user_id: anith

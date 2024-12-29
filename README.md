@@ -35,7 +35,13 @@ python setup.py install
 ```
 pip install -r requirements.txt
 ```
+# to cross check libraries in terminal
+```
+python
 
+import dvc
+import mlflow
+```
 
 ```
 MLflow

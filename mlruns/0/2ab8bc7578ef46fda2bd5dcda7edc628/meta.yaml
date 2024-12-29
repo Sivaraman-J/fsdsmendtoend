@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Siva/Full_Stack_Data_Science_Masters/fsdsmendtoend/mlruns/0/2ab8bc7578ef46fda2bd5dcda7edc628/artifacts
+end_time: 1735491096659
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ab8bc7578ef46fda2bd5dcda7edc628
+run_name: fearless-shrimp-372
+run_uuid: 2ab8bc7578ef46fda2bd5dcda7edc628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735491089293
+status: 4
+tags: []
+user_id: anith

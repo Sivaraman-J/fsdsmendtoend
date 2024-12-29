@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Siva/Full_Stack_Data_Science_Masters/fsdsmendtoend/mlruns/0/ec2eda51d0ea47f18144fbb397a42fb9/artifacts
+end_time: 1735492810511
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec2eda51d0ea47f18144fbb397a42fb9
+run_name: popular-slug-944
+run_uuid: ec2eda51d0ea47f18144fbb397a42fb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735492806090
+status: 3
+tags: []
+user_id: anith
